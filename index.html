@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AstroNova — Exploração Galáctica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:ital,wght@0,200;0,400;1,200&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loader-wrap" id="loader">
+      <div class="loader-ring ring-1"></div>
+      <div class="loader-ring ring-2"></div>
+      <div class="loader-ring ring-3"></div>
+      <div class="loader-core"></div>
+      <span class="loader-text">INICIANDO SISTEMA</span>
+    </div>
+
+    <div class="bg-space">
+      <div class="nebula nebula-1"></div>
+      <div class="nebula nebula-2"></div>
+      <div class="nebula nebula-3"></div>
+
+      <div class="stars stars-md"></div>
+      <div class="stars stars-lg"></div>
+
+      <div class="particle p1"></div>
+      <div class="particle p2"></div>
+      <div class="particle p3"></div>
+      <div class="particle p4"></div>
+      <div class="particle p5"></div>
+      <div class="particle p6"></div>
+
+      <div class="meteor m1"></div>
+      <div class="meteor m2"></div>
+      <div class="meteor m3"></div>
+      <div class="meteor m4"></div>
+    </div>
+
+    <nav class="navbar">
+      <div class="nav-logo">
+        <span class="logo-icon"><img src="img/lua.png" alt="" style="width: 1.5rem; height: 1.5rem;"></span>
+        <span class="logo-text">ASTRONOVA</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link">Início</a></li>
+        <li><a href="#sistema" class="nav-link">Sistema</a></li>
+        <li><a href="#missoes" class="nav-link">Missões</a></li>
+        <li><a href="#galáxias" class="nav-link">Galáxias</a></li>
+        <li><a href="#contato" class="nav-link nav-cta">Contato</a></li>
+      </ul>
+      <div class="nav-scanner"></div>
+    </nav>
+
+    <section class="hero" id="hero">
+      <div class="scanline"></div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow"></p>
+
+        <h1 class="hero-title">
+          <span class="title-line">TUDO SOBRE</span>
+          <span class="title-line accent">ESPAÇO</span>
+        </h1>
+
+        <p class="hero-sub">
+          Transforme conhecimento.<br />
+          Em divertimento.
+        </p>
+
+        <a href="#sistema" class="btn-explore">
+          <span class="btn-bg"></span>
+          <span class="btn-label">Explorar Universo</span>
+          <span class="btn-arrow">→</span>
+        </a>
+
+        <div class="hud-row">
+          <div class="hud-item">
+            <span class="hud-val">2 048</span
+            ><span class="hud-key">EXOPLANETAS</span>
+          </div>
+          <div class="hud-sep"></div>
+          <div class="hud-item">
+            <span class="hud-val">93<small>bi</small></span
+            ><span class="hud-key">ANOS-LUZ</span>
+          </div>
+          <div class="hud-sep"></div>
+          <div class="hud-item">
+            <span class="hud-val">∞</span><span class="hud-key">GALÁXIAS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="astronaut-wrap">
+        <div class="astronaut">
+          <div class="astro-helmet">
+            <div class="astro-visor"></div>
+            <div class="astro-reflection"></div>
+          </div>
+
+          <div class="astro-body">
+            <div class="astro-arm left"></div>
+            <div class="astro-torso">
+              <div class="astro-badge"></div>
+            </div>
+            <div class="astro-arm right"></div>
+          </div>
+          <div class="astro-legs">
+            <div class="astro-leg"></div>
+            <div class="astro-leg"></div>
+
+          <div class="astro-pack"></div>
+
+          <div class="astro-glow"></div>
+        </div>
+
+        <div class="orbit-dot od1"></div>
+        <div class="orbit-dot od2"></div>
+        <div class="orbit-dot od3"></div>
+      </div>
+    </section>
+
+    <section class="solar-section" id="sistema">
+      <div class="section-header">
+        <span class="section-tag">// SISTEMA SOLAR //</span>
+        <h2 class="section-title">
+          Nosso <span class="neon-text">Sistema</span>
+        </h2>
+
+      </div>
+
+      <div class="solar-system">
+        <div class="sun">
+          <div class="sun-core"></div>
+          <div class="sun-halo h1"></div>
+          <div class="sun-halo h2"></div>
+          <div class="sun-flare f1"></div>
+          <div class="sun-flare f2"></div>
+          <div class="sun-flare f3"></div>
+        </div>
+
+        <div class="orbit orbit-1">
+          <div class="planet mercury">
+            <div class="planet-ring"></div>
+            <div class="planet-shine"></div>
+          </div>
+        </div>
+
+        <div class="orbit orbit-2">
+          <div class="planet venus">
+            <div class="planet-shine"></div>
+          </div>
+        </div>
+
+        <div class="orbit orbit-3">
+          <div class="planet earth">
+            <div class="earth-ocean"></div>
+            <div class="earth-continent c1"></div>
+            <div class="earth-continent c2"></div>
+            <div class="planet-shine"></div>
+
+            <div class="moon-orbit">
+              <div class="moon"></div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="orbit orbit-4">
+          <div class="planet mars">
+            <div class="planet-shine"></div>
+          </div>
+        </div>
+
+        <div class="orbit orbit-5">
+          <div class="planet saturn">
+            <div class="saturn-ring"></div>
+            <div class="planet-shine"></div>
+          </div>
+        </div>
+
+        <div class="asteroid-belt"></div>
+      </div>
+    </section>
+
+    <section class="carousel-section">
+      <div class="section-header">
+        <span class="section-tag">// GALÁXIAS //</span>
+        <h2 class="section-title" id="galáxias">
+          Maravilhas do <span class="neon-text">Cosmos</span>
+        </h2>
+      </div>
+
+      <div class="carousel-track-wrap">
+        <div class="carousel-track">
+          <div class="carousel-slide slide-1">
+            <div class="slide-overlay">
+              <h3>Nebulosa de Órion</h3>
+              <p>1.344 anos-luz de distância</p>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-slide slide-2">
+            <div class="slide-overlay">
+              <h3>Via Láctea</h3>
+              <p>Nossa galáxia espiral barrada</p>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-slide slide-3">
+            <div class="slide-overlay">
+              <h3>Nebulosa do Caranguejo</h3>
+              <p>Remanescente de supernova</p>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="carousel-slide slide-4">
+            <div class="slide-overlay">
+              <h3>Andrômeda</h3>
+              <p>2,537 milhões de anos-luz</p>
+            </div>
+          </div>
+          <!-- Repetir slides para loop infinito -->
+          <div class="carousel-slide slide-1">
+            <div class="slide-overlay">
+              <h3>Nebulosa de Órion</h3>
+              <p>1.344 anos-luz de distância</p>
+            </div>
+          </div>
+          <div class="carousel-slide slide-2">
+            <div class="slide-overlay">
+              <h3>Via Láctea</h3>
+              <p>Nossa galáxia espiral barrada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards-section" id="missoes">
+      <div class="section-header">
+        <span class="section-tag">// MISSÕES //</span>
+        <h2 class="section-title">
+          Missões <span class="neon-text">Épicas</span>
+        </h2>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card card-planet">
+          <div class="card-glow"></div>
+          <div class="card-icon-wrap">
+            <div class="card-planet-vis">
+              <div class="mini-planet p-blue">
+                <div class="mini-ring"></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">PLANETA</span>
+            <h3 class="card-title">Kepler-452b</h3>
+            <p class="card-desc">
+              Planeta similar à Terra a 1.400 anos-luz. Apelidado de "Terra 2.0"
+              pela NASA.
+            </p>
+            <div class="card-stats">
+              <div class="stat"><span>1.6×</span><small>Massa</small></div>
+              <div class="stat"><span>385d</span><small>Órbita</small></div>
+              <div class="stat"><span>G5V</span><small>Estrela</small></div>
+            </div>
+          </div>
+          <div class="card-border-anim"></div>
+        </div>
+
+        <div class="card card-galaxy">
+          <div class="card-glow"></div>
+          <div class="card-icon-wrap">
+            <div class="galaxy-vis">
+              <div class="galaxy-arm ga1"></div>
+              <div class="galaxy-arm ga2"></div>
+              <div class="galaxy-center"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">GALÁXIA</span>
+            <h3 class="card-title">Andrômeda</h3>
+            <p class="card-desc">
+              A maior galáxia do Grupo Local. Em 4 bilhões de anos colidirá com
+              a Via Láctea.
+            </p>
+            <div class="card-stats">
+              <div class="stat"><span>1T</span><small>Estrelas</small></div>
+              <div class="stat"><span>220k</span><small>Anos-luz</small></div>
+              <div class="stat"><span>M31</span><small>Código</small></div>
+            </div>
+          </div>
+          <div class="card-border-anim"></div>
+        </div>
+
+        <div class="card card-astro">
+          <div class="card-glow"></div>
+          <div class="card-icon-wrap">
+            <div class="mini-astro">
+              <div class="ma-helmet">
+                <div class="ma-visor"></div>
+              </div>
+              <div class="ma-body"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">ASTRONAUTA</span>
+            <h3 class="card-title">Missão Alpha</h3>
+            <p class="card-desc">
+              Tripulação de 6 astronautas rumo a Marte. Partida prevista para
+              2031 via SpaceX Starship.
+            </p>
+            <div class="card-stats">
+              <div class="stat"><span>6</span><small>Tripul.</small></div>
+              <div class="stat"><span>7 meses</span><small>Viagem</small></div>
+              <div class="stat"><span>2031</span><small>Partida</small></div>
+            </div>
+          </div>
+          <div class="card-border-anim"></div>
+        </div>
+
+        <div class="card card-mission">
+          <div class="card-glow"></div>
+          <div class="card-icon-wrap">
+            <div class="rocket-vis">
+              <div class="rocket-body">
+                <div class="rocket-nose"></div>
+                <div class="rocket-window"></div>
+                <div class="rocket-fin fl"></div>
+                <div class="rocket-fin fr"></div>
+              </div>
+              <div class="rocket-flame"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">MISSÃO</span>
+            <h3 class="card-title">Artemis IV</h3>
+            <p class="card-desc">
+              Retorno humano à Lua. Base permanente no polo sul lunar com módulo
+              habitacional.
+            </p>
+            <div class="card-stats">
+              <div class="stat"><span>384k</span><small>km</small></div>
+              <div class="stat"><span>3d</span><small>Viagem</small></div>
+              <div class="stat"><span>NASA</span><small>Agência</small></div>
+            </div>
+          </div>
+          <div class="card-border-anim"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner-section">
+      <div class="banner-bg"></div>
+      <div class="banner-content">
+        <div class="banner-item">
+          <div class="b-number counter">8</div>
+          <div class="b-label">Planetas no Sistema Solar</div>
+        </div>
+        <div class="banner-divider"></div>
+        <div class="banner-item">
+          <div class="b-number">200+</div>
+          <div class="b-label">Bilhões de Estrelas na Via Láctea</div>
+        </div>
+        <div class="banner-divider"></div>
+        <div class="banner-item">
+          <div class="b-number">13.8</div>
+          <div class="b-label">Bilhões de Anos de Universo</div>
+        </div>
+        <div class="banner-divider"></div>
+        <div class="banner-item">
+          <div class="b-number">∞</div>
+          <div class="b-label">Possibilidades de Exploração</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contato">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">ASTRO<em>NOVA</em></span>
+          <p>Explorando o cosmos, um pixel de cada vez.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <a href="#hero">Início</a>
+          <a href="#sistema">Sistema Solar</a>
+          <a href="#missoes">Missões</a>
+          <a href="#galáxias">Galáxias</a>
+        </div>
+        <div class="footer-links">
+          <h4>Contato</h4>
+          <a href="mailto:gustavo.v.brito@edu.senai.br">gustavo.v.brito@edu.senai.br</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="blink-text">● SISTEMA ONLINE</span>
+        <span>© 2026 ASTRONOVA — Todos os direitos reservados</span>
+      </div>
+    </footer>
+  </body>
+</html>
