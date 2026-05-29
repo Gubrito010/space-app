@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesquisa — CSS Animations</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Exo+2:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="pesquisa.css" />
+  </head>
+
+  <body>
+    <div class="bg"></div>
+
+    <header class="topo">
+      <h1>Pesquisa sobre CSS Animations</h1>
+      <p>Keyframes, Animation, Transition e Transform</p>
+
+      <a href="index.html" class="btn">← Voltar ao site principal</a>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>1. O que são Keyframes no CSS?</h2>
+
+        <p>
+          Os <strong>Keyframes</strong> são utilizados para criar animações no
+          CSS.
+        </p>
+
+        <h3>• Para que servem?</h3>
+        <p>
+          Os Keyframes no CSS servem para criar animações em elementos da
+          página, definindo como eles começam, se movimentam e terminam durante
+          a animação.
+        </p>
+
+        <h3>• Como funcionam?</h3>
+        <p>
+          Funcionam através da regra <code>@keyframes</code>, onde definimos os
+          estados da animação em porcentagens.
+        </p>
+
+        <div class="codigo">
+          <pre>
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(200px);
+  }
+}
+          </pre>
+        </div>
+
+        <h3>• Onde são utilizados?</h3>
+        <p>
+          São utilizados em sites modernos para criar efeitos visuais,
+          carregamentos, menus animados, botões interativos, banners e
+          transições suaves.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>2. O que faz a propriedade animation?</h2>
+
+        <p>
+          A propriedade <code>animation</code> controla uma animação criada com
+          <code>@keyframes</code>.
+        </p>
+
+        <ul>
+          <li><strong>duration:</strong> define o tempo da animação.</li>
+
+          <li>
+            <strong>infinite:</strong> faz a animação repetir infinitamente.
+          </li>
+
+          <li><strong>alternate:</strong> faz a animação ir e voltar.</li>
+
+          <li><strong>linear:</strong> mantém velocidade constante.</li>
+
+          <li>
+            <strong>ease:</strong> começa devagar, acelera e termina devagar.
+          </li>
+
+          <li><strong>ease-in:</strong> começa lentamente.</li>
+
+          <li><strong>ease-out:</strong> termina lentamente.</li>
+
+          <li><strong>ease-in-out:</strong> começa e termina lentamente.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>3. Funções</h2>
+
+        <div class="funcoes">
+          <div class="funcao-box">
+            <h3>translate()</h3>
+            <p>Move um elemento na horizontal ou vertical.</p>
+          </div>
+
+          <div class="funcao-box">
+            <h3>rotate()</h3>
+            <p>Rotaciona um elemento.</p>
+          </div>
+
+          <div class="funcao-box">
+            <h3>scale()</h3>
+            <p>Aumenta ou diminui o tamanho de um elemento.</p>
+          </div>
+
+          <div class="funcao-box">
+            <h3>skew()</h3>
+            <p>Inclina um elemento.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>4. Diferença entre transition, transform e animation</h2>
+
+        <table>
+          <tr>
+            <th>Propriedade</th>
+            <th>Função</th>
+          </tr>
+
+          <tr>
+            <td>transition</td>
+            <td>Cria uma mudança suave entre estados.</td>
+          </tr>
+
+          <tr>
+            <td>transform</td>
+            <td>Modifica visualmente um elemento.</td>
+          </tr>
+
+          <tr>
+            <td>animation</td>
+            <td>Cria animações completas usando keyframes.</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="card">
+        <h2>5. Exemplos reais de animações CSS</h2>
+
+        <ol>
+          <li>Botões com efeito hover em lojas online.</li>
+
+          <li>Carrosséis automáticos em sites modernos.</li>
+
+          <li>Telas de loading com animações.</li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>

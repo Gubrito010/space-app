@@ -1409,7 +1409,7 @@ body {
 
 .carousel-track {
   display: flex;
-  width: 600%; /* 6 slides × 100% */
+  width: 600%;
   animation: carouselAuto 40s linear infinite;
 }
 
@@ -1509,13 +1509,11 @@ body {
   animation-delay: 0.4s;
 }
 
-/* Hover: levanta o card e ilumina */
 .card:hover {
   transform: translateY(-12px) scale(1.02);
   border-color: var(--cyan);
 }
 
-/* Glow atrás do card */
 .card-glow {
   position: absolute;
   inset: 0;
@@ -1558,7 +1556,6 @@ body {
   opacity: 1;
 }
 
-/* Borda animada no hover */
 .card-border-anim {
   position: absolute;
   bottom: 0;
@@ -1583,7 +1580,6 @@ body {
   margin-bottom: 1.5rem;
 }
 
-/* Mini planeta no card */
 .card-planet-vis {
   position: relative;
   width: 70px;
@@ -1617,7 +1613,6 @@ body {
   transform: rotateX(70deg);
 }
 
-/* Mini galáxia */
 .galaxy-vis {
   position: relative;
   width: 70px;
@@ -1655,8 +1650,6 @@ body {
   transform: translate(-50%, -50%);
   box-shadow: var(--glow-purple);
 }
-
-/* Mini astronauta */
 .mini-astro {
   display: flex;
   flex-direction: column;
@@ -1695,7 +1688,6 @@ body {
   margin-top: -3px;
 }
 
-/* Mini foguete */
 .rocket-vis {
   display: flex;
   flex-direction: column;
@@ -1761,7 +1753,6 @@ body {
   filter: blur(2px);
 }
 
-/* Conteúdo dos cards */
 .card-body {
   position: relative;
   z-index: 1;
@@ -1840,9 +1831,6 @@ body {
   letter-spacing: 0.1em;
 }
 
-/* ════════════════════════════════════
-   BANNER PREMIUM
-════════════════════════════════════ */
 .banner-section {
   position: relative;
   z-index: 1;
@@ -1902,9 +1890,6 @@ body {
   background: linear-gradient(to bottom, transparent, var(--cyan), transparent);
 }
 
-/* ════════════════════════════════════
-   FOOTER
-════════════════════════════════════ */
 .footer {
   position: relative;
   z-index: 1;
@@ -1982,9 +1967,6 @@ body {
   font-size: 0.7rem;
 }
 
-/* ════════════════════════════════════
-   RESPONSIVIDADE
-════════════════════════════════════ */
 @media (max-width: 900px) {
   .navbar {
     padding: 1rem 2rem;
